@@ -1,0 +1,71 @@
+/* ESTILO GENERAL */
+body {
+    margin: 0; /* define el espacio exterior de un elemento */
+    background-color: #f9f9f9;/* Establece el color del fondo */
+    color: #333;/* Define el color del texto */
+    
+}
+
+/* ENCABEZADO */
+.header {
+    background-color: #f4d4f7; /* Color rosa claro */
+    text-align: center;/* Alinea el texto horizoltalmente */
+    padding: 20px 0;/* Estilo general */
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5rem;/* Espesifica el tamaño de la fuente */
+    color: #7a1e8c; /* Color púrpura */
+}
+
+.header .highlight {
+    color: #ff69b4; /* Color rosa fuerte */
+}
+
+
+
+
+/* MENU*/
+.menu {
+    display: flex;/* Define como se muestra un elemento */
+    justify-content: center;/* Alinea los elementos */
+    background-color: #333;
+    padding: 10px 0;/* define el espacio  */
+  
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;/* Quitar decoracion al texto */
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #7a1e8c; /* Color púrpura */
+    border-radius: 5px;/* Redondea las esquinas  */
+    font-weight: bold; /* Espesificar el grosor  */
+    
+}
+
+.menu a:hover {
+    background-color: #ff69b4; /* Color rosa fuerte */
+}
+
+/* GALERIA*/
+.gallery {
+    display: flex; /* Define como se muestra un elemento */
+    justify-content: center; /* Alinea los elementos  */
+    align-items: center;/* centra los elementos  */
+    flex-wrap: wrap; /* Ajusta los elementos */
+    padding: 20px;
+    gap: 10px;/* Define el espacio entre filas */
+    background-color: #f4d4f7; /* Fondo rosa claro */
+}
+
+.gallery img {
+    width: 23%;
+    height: auto;
+    border-radius: 10px; /* Redondea las esquinas  */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);/* Agrega sonbras */
+    
+}
+

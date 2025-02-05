@@ -1,0 +1,50 @@
+/* ESTILO GENERAL */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.rosas {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #6a4370;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* CONTENEDOR DE LAS TARJETAS */
+.card-rosas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ESTILO DE LAS TARJETAS */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 14px;
+}

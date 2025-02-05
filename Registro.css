@@ -1,0 +1,82 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor del formulario */
+.form-container {
+    background-color: #4a015f; /* Morado oscuro */
+    color: #fff;
+    width: 90%;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+/* Estilo de los campos de entrada */
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: #6a1b8d; /* Morado intermedio */
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.input-group .icon {
+    margin-right: 10px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.input-group input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: transparent;
+}
+
+/* Grupo de checkboxes */
+.checkbox-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.checkbox-group label {
+    font-size: 0.9rem;
+}
+
+/* Botón de registro */
+.register-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #7a1e8c; /* Morado más claro */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.register-btn:hover {
+    background-color: #a64ca6; /* Color más claro en hover */
+}

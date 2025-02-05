@@ -1,0 +1,52 @@
+/* ESTILO GENERAL */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* ENCABEZADO */
+.header {
+    background-color: #6a4370; /* Color púrpura */
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.header span {
+    font-size: 1.5rem;
+}
+
+/* SECCION DE "NOSOTROS" */
+.nosotros{
+    background-color: #8e4a84; /* Color púrpura oscuro */
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    border-top: 2px solid #6a4370;
+    border-bottom: 2px solid #6a4370;
+}
+
+.nosotros strong {
+    color: #f2d0f3; /* Color rosado claro */
+}
+
+.nosotros p {
+    margin: 10px 0;
+}
+
+/* PIE DE PAGINA */
+.footer {
+    background-color: #6a4370;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1rem;
+    color: #f2d0f3;
+}
+
