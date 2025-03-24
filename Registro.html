@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -9,33 +9,40 @@
 <body>
     <div class="form-container">
         <h2>REGISTRO</h2>
-        <form action="https://formsubmit.co/andujaryenifer5@gmail.com" name="Registro" method="POST">
+        <form action="https://formsubmit.co/andujaryenifer5@gmail.com" method="POST">
+            <!-- Agregando los atributos "name" para que los datos se envíen correctamente -->
             <div class="input-group">
                 <span class="icon">👤</span>
-                <input type="text" placeholder="Nombre" required>
+                <input type="text" name="nombre" placeholder="Nombre" required>
             </div>
             <div class="input-group">
                 <span class="icon">✉</span>
-                <input type="email" placeholder="Email" required>
+                <input type="email" name="email" placeholder="Email" required>
             </div>
             <div class="input-group">
                 <span class="icon">🔒</span>
-                <input type="password" placeholder="Contraseña" required>
+                <input type="password" name="contraseña" placeholder="Contraseña" required>
             </div>
             <div class="input-group">
                 <span class="icon">🔒</span>
-                <input type="password" placeholder="Confirm Contraseña" required>
+                <input type="password" name="confirmar_contraseña" placeholder="Confirmar Contraseña" required>
             </div>
             <div class="input-group">
                 <span class="icon">📞</span>
-                <input type="tel" placeholder="Telefono" required>
+                <input type="tel" name="telefono" placeholder="Teléfono" required>
             </div>
             <div class="checkbox-group">
-                <label><input type="checkbox"> Recordatorio</label>
-                <label><input type="checkbox"> Subscribete</label>
+                <label><input type="checkbox" name="recordatorio"> Recordatorio</label>
+                <label><input type="checkbox" name="subscribete"> Subscríbete</label>
             </div>
-            <button type="submit" name="Registro" class="register-btn">REGISTER</button>
+
+            <!-- Incluir campos ocultos para mejor configuración -->
+            <input type="hidden" name="_next" value="https://tu-pagina.com/gracias.html">
+            <input type="hidden" name="_captcha" value="false">
+
+            <button type="submit" class="register-btn">REGISTER</button>
         </form>
     </div>
 </body>
 </html>
+
