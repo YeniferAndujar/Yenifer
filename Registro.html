@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
-    <link rel="stylesheet" href="Registro.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="form-container">
         <h2>REGISTRO</h2>
         <form action="https://formsubmit.co/andujaryenifer5@gmail.com" method="POST">
-            <!-- Agregando los atributos "name" para que los datos se envíen correctamente -->
+            <!-- Campos del formulario -->
             <div class="input-group">
                 <span class="icon">👤</span>
                 <input type="text" name="nombre" placeholder="Nombre" required>
@@ -24,20 +24,16 @@
                 <input type="password" name="contraseña" placeholder="Contraseña" required>
             </div>
             <div class="input-group">
-                <span class="icon">🔒</span>
-                <input type="password" name="confirmar_contraseña" placeholder="Confirmar Contraseña" required>
-            </div>
-            <div class="input-group">
                 <span class="icon">📞</span>
                 <input type="tel" name="telefono" placeholder="Teléfono" required>
             </div>
             <div class="checkbox-group">
                 <label><input type="checkbox" name="recordatorio"> Recordatorio</label>
-                <label><input type="checkbox" name="subscribete"> Subscríbete</label>
+                <label><input type="checkbox" name="subscribete"> Suscribirse</label>
             </div>
 
-            <!-- Incluir campos ocultos para mejor configuración -->
-            <input type="hidden" name="_next" value="https://tu-pagina.com/gracias.html">
+            <!-- Campos ocultos para personalizar el envío -->
+            <input type="hidden" name="_next" value="https://yeniferandujar.github.io/Yenifer/gracias.html">
             <input type="hidden" name="_captcha" value="false">
 
             <button type="submit" class="register-btn">REGISTER</button>
